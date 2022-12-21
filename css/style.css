@@ -93,6 +93,9 @@ nav li {
     flex-direction: column;
     align-items: center;
     width: calc(100% / 3 - 10px);
+
+    /* utils mobile */
+    min-width: 130px;
 }
 
 .c-icon {

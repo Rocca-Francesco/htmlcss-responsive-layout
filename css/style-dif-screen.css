@@ -1,15 +1,40 @@
-/* nav mobile */
+/* utils mobile/tablet */
 
 #nav-mobile {
     display: none;
 }
 
+/* media tablet */
+
 @media screen and (max-width: 768px) {
+
+    /* nav */
     .nav-text {
         display: none;
     }
 
     #nav-mobile {
         display: block;
+    }
+
+    /* cards blue */
+    .cards-big {
+        display: block;
+    }
+}
+
+/* media mobile */
+
+@media screen and (max-width: 480px) {
+
+    /* cards blu */
+    #info-blue {
+        display: block;
+    }
+
+    .cards-big,
+    .cards-small {
+        width: 100%;
+        margin-top: 10px;
     }
 }

@@ -12,7 +12,12 @@
 	display: table;
 }
 
-.d-flex {
+nav,
+.nav-text,
+.nav-ul,
+#info-blue,
+.cards-big,
+.cards-small {
 	display: flex;
 }
 
