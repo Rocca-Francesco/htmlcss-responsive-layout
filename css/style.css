@@ -107,3 +107,65 @@ nav li {
 .cards-small>.cards-text {
     text-align: center;
 }
+
+/* strategic planning */
+
+#strategic {
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-left {
+    width: calc(30% - 5px);
+    color: white;
+}
+
+.col-right {
+    width: calc(30% - 5px);
+    align-self: flex-end;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.col-left>img {
+    width: 70%;
+    margin: 4rem 0;
+}
+
+.col-right>img {
+    width: 50%;
+}
+
+.col-left>h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.col-right>h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.col-left>p {
+    margin: 2rem 0;
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+}
+
+.col-right>p {
+    margin: 1rem 0;
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    font-style: italic;
+}
+
+#arrow-violet {
+    background-color: #9792e4;
+    border-radius: 50%;
+    padding: 5px;
+}
