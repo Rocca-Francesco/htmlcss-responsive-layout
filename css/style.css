@@ -1,8 +1,10 @@
 /* nav */
 
 header {
-    background-color: lightblue;
+    background-color: #0084fd;
     height: 3rem;
+    position: sticky;
+    z-index: 1;
 }
 
 nav {
@@ -24,9 +26,81 @@ nav li {
 
 .btn-white {
     background-color: white;
-    color: black;
     padding: 5px;
     font-size: 0.7rem;
     border-radius: 20px;
     margin: 0px 10px;
+}
+
+/* CARDS BLUE */
+
+.cards-blue {
+    background-color: #b5ddff;
+    border-radius: 20px;
+    padding: 20px 10px;
+    max-height: 14rem;
+
+}
+
+.cards-title {
+    font-size: 1rem;
+    color: #0084fd;
+    font-weight: bold;
+}
+
+.cards-text {
+    font-size: 0.7rem;
+    line-height: 1rem;
+    margin: 10px 0;
+    color: #5c7081;
+}
+
+#info-blue {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+/* Cards Big */
+
+.cards-big {
+    width: calc(100% / 3 * 2);
+}
+
+
+.cbig-img {
+    width: calc(100% / 2);
+    margin: 0 2rem;
+}
+
+.cbig-img img {
+    width: 100%;
+    position: relative;
+    top: 1.5rem;
+    width: 100%;
+}
+
+.btn-white.btn-download {
+    padding: 5px 25px;
+    margin: 5px 0;
+    background-color: #0084fd;
+    color: white;
+}
+
+/* Cards Small */
+
+.cards-small {
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3 - 10px);
+}
+
+.c-icon {
+    color: #0084fd;
+    font-size: 3rem;
+}
+
+.cards-small>.cards-title,
+.cards-small>.cards-text {
+    text-align: center;
 }
