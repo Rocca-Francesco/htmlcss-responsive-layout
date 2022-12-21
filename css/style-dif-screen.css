@@ -21,6 +21,16 @@
     .cards-big {
         display: block;
     }
+
+    /* strategic */
+    #strategic {
+        display: block;
+    }
+
+    .col-left,
+    .col-right {
+        width: 100%;
+    }
 }
 
 /* media mobile */
