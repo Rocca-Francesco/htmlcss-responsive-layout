@@ -178,6 +178,7 @@ nav li {
 
 .partners-title>h2 {
     font-size: 2rem;
+    font-weight: bold;
     color: #9792e4;
 }
 
@@ -209,4 +210,55 @@ nav li {
     font-size: 0.7rem;
     margin: 0 0 0.5rem 2rem;
     line-height: 1.2rem;
+}
+
+/* Benefits */
+
+.benefits>h2 {
+    text-align: center;
+    color: white;
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.benefits>div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.benefits-cards {
+    width: calc(100% / 3 - 1rem);
+    background-color: white;
+    border-radius: 20px;
+    color: #9792e4;
+    padding: 1rem;
+}
+
+.benefits-cards>span {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.benefits-cards>h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.benefits-cards>p {
+    color: grey;
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+}
+
+.btn-violet {
+    display: inline-block;
+    background-color: #9792e4;
+    color: white;
+    padding: 0.5rem 2rem;
+    margin: 1rem 0;
+    border-radius: 20px;
+    font-size: 0.7rem;
 }
