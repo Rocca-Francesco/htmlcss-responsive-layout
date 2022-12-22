@@ -47,4 +47,21 @@
         width: 100%;
         margin-top: 10px;
     }
+
+    /* partners */
+
+    .partners-info {
+        display: block;
+    }
+
+    .partners-info>img {
+        width: 10rem;
+        height: 10rem;
+        margin: 0 0 0.5rem 2rem;
+    }
+
+    .partners-info>div>p,
+    .partners-info>div>span {
+        margin: 0 0 0.5rem 0;
+    }
 }
