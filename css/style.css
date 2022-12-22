@@ -262,3 +262,49 @@ nav li {
     border-radius: 20px;
     font-size: 0.7rem;
 }
+
+/* About us */
+
+.about-us-text {
+    width: 80%;
+    margin: 0 2rem;
+}
+
+.about-us h2 {
+    color: #9792e4;
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about-us p {
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    margin: 2rem 0;
+}
+
+.about-us img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-us-cit {
+    position: relative;
+    padding-top: 2rem;
+    width: 6rem;
+    color: #9792e4;
+    font-weight: bold;
+}
+
+.btn-violet.find-me {
+    font-size: 0.5rem;
+    padding: 0.2rem;
+}
+
+#quotes {
+    position: absolute;
+    right: -17px;
+    font-size: 2rem;
+}

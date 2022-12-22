@@ -26,7 +26,8 @@ nav,
 .cards-small,
 #strategic,
 .partners-info,
-.benefits>div {
+.benefits>div,
+.about-us {
 	display: flex;
 }
 
