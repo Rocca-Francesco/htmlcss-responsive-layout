@@ -24,7 +24,8 @@ nav,
 #info-blue,
 .cards-big,
 .cards-small,
-#strategic {
+#strategic,
+.partners-info {
 	display: flex;
 }
 

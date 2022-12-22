@@ -141,12 +141,12 @@ nav li {
     width: 50%;
 }
 
-.col-left>h2 {
+.col-left>h3 {
     font-size: 1.4rem;
     font-weight: bold;
 }
 
-.col-right>h2 {
+.col-right>h3 {
     font-size: 1rem;
     font-weight: bold;
 }
@@ -168,4 +168,38 @@ nav li {
     background-color: #9792e4;
     border-radius: 50%;
     padding: 5px;
+}
+
+/* partners */
+
+.partners-title {
+    text-align: center;
+}
+
+.partners-title>span,
+.partners-title>p {
+    display: block;
+    margin: 2rem 0;
+    font-size: 0.7rem;
+}
+
+.partners-info {
+    background-color: #9792e4;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.partners-info>img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.partners-info>p {
+    font-size: 0.7rem;
+    padding: 2rem;
 }
